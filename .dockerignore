@@ -1,0 +1,37 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.idea
+.vscode
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+*.md
+!README.md
+
+# Backend
+taskify-backend/target
+taskify-backend/.mvn/repository
+taskify-backend/*.log
+
+# Frontend
+taskify-frontend/node_modules
+taskify-frontend/dist
+taskify-frontend/.env
+taskify-frontend/.env.local
+taskify-frontend/.env.*.local
+
+# Docker files for individual services (not needed for merged build)
+taskify-backend/Dockerfile
+taskify-frontend/Dockerfile
+
+# Logs
+*.log
+logs/
